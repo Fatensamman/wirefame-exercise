@@ -1,0 +1,96 @@
+header {
+    position: relative;
+    height: 140px;
+    width: 1170px;
+    background-color: rgb(92, 92, 92);
+}
+header img{
+    position: relative;
+    top: 35px;
+    left: 105px;
+    /* background-color: black; */
+}
+header nav {position: absolute;
+    top: 65px;
+    left: 390px;
+}
+.Item {  
+    float: left;
+    color: rgb(204, 224, 224);
+    line-height: 10px;
+    margin-left: 70px;
+    list-style: none;
+};
+
+main{
+    height: 100%;
+    width: 1170px;
+    background: cornsilk;
+    }
+    
+#mainPic {
+    position: relative;
+    top: 25px;
+    left: 105px;
+    margin-bottom: 25px;
+}
+#imgs{
+    position: relative;
+    top: 50px;
+    left: 85px;
+}
+.divpic {
+    float: left;
+    margin-left: 22px;
+}
+
+#txtsection{position: relative;
+    padding-left: 5px;
+    top: 75px ;
+    left: 105px;
+    width: 960px;
+}
+#txtimg {
+    float:left;
+}
+#txtsection h3 {
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    float: left;
+    margin-left: 25px;
+    font-weight: bold;
+}
+ #txt {
+     position: relative;
+     top: 40px;
+     text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    padding-left: 50px;
+}
+#call {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+   top: 1415px;
+   left:610px;
+    background-color: black;
+    color: blanchedalmond;
+    margin-bottom: 0px;
+    padding: 0;
+}
+#call h3 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+footer {
+    padding-top: 25px;
+
+height: 140px;
+width: 1170px;
+background-color: rgb(92, 92, 92);
+z-index: 0px;
+}
