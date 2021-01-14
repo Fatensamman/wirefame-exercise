@@ -3,6 +3,7 @@ header {
     height: 140px;
     width: 1170px;
     background-color: rgb(92, 92, 92);
+margin: auto;
 }
 header img{
     position: relative;
@@ -31,13 +32,13 @@ main{
 #mainPic {
     position: relative;
     top: 25px;
-    left: 105px;
+    left: 270px;
     margin-bottom: 25px;
 }
 #imgs{
     position: relative;
     top: 50px;
-    left: 85px;
+    left: 255px;
 }
 .divpic {
     float: left;
@@ -45,13 +46,15 @@ main{
 }
 
 #txtsection{position: relative;
+    height: 875px;
     padding-left: 5px;
     top: 75px ;
-    left: 105px;
+    left: 270px;
     width: 960px;
 }
 #txtimg {
     float:left;
+    margin-right: 25px;
 }
 #txtsection h3 {
     font-size: 20px;
@@ -75,7 +78,7 @@ main{
     height: 50px;
     position: absolute;
    top: 1415px;
-   left:610px;
+   left:775px;
     background-color: black;
     color: blanchedalmond;
     margin-bottom: 0px;
@@ -87,10 +90,14 @@ main{
     font-size: 20px;
 }
 footer {
-    padding-top: 25px;
+    /* position: relative; */
+    /* bottom: 0; */
+    /* padding-top: 25px; */
 
-height: 140px;
+height: 100px;
 width: 1170px;
 background-color: rgb(92, 92, 92);
-z-index: 0px;
+bottom: 0px;
+margin: auto
+
 }
