@@ -1,9 +1,14 @@
+
+body{
+    margin: auto;
+}
 header {
     position: relative;
     height: 140px;
     width: 1170px;
     background-color: rgb(92, 92, 92);
-margin: auto;
+    margin: auto;
+
 }
 header img{
     position: relative;
@@ -98,6 +103,5 @@ height: 100px;
 width: 1170px;
 background-color: rgb(92, 92, 92);
 bottom: 0px;
-margin: auto
-
+margin: auto;
 }
